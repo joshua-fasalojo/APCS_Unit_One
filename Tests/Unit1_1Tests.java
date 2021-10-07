@@ -66,7 +66,7 @@ class Unit1_1Tests {
         Scanner scan = new Scanner(file);
         while (scan.hasNextLine())
             expect += scan.nextLine() + "\n";
-        MetaJava.main(null);
+        //MetaJava.main(null);
         assertEquals(expect, outContent.toString(), "Check your spacing!");
     }
 
