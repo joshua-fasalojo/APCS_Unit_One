@@ -4,7 +4,7 @@ public class CorrectChange {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("How many cents in total?");
+        System.out.println(" Please enter a whole number of cents: ");
         int cents = input.nextInt();
         int dollar = (cents/100) ;
         cents = (cents - (100*dollar));
