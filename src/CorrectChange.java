@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CorrectChange {
-
+3
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println(" Please enter a whole number of cents: ");
